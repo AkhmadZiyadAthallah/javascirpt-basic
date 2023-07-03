@@ -15,6 +15,10 @@ console.log(shoutOut()) // Menampilkan "Halo Function!" di console
  BUATLAH KODE FUNCTION DISINI
 */
 
+function calculateMultiply(num1, num2) {
+    return num1 * num2
+}
+
 var num1 = 5;
 var num2 = 6;
 
@@ -27,10 +31,16 @@ console.log(hasilPerkalian); // Menampilkan angka 30
  BUATLAH KODE FUNCTION DISINI
 */
 
-var name = "Dede";
-var age = 31;
-var address = "Jln. Malioboro, Yogjakarta";
-var hobby = "gaming";
+function processSentence(name,age,address,hobby){
+    return ("Nama saya " + name + " " + "Umur saya " + age + " " + "tahun." + " " + "Saya tinggal di " + address + " " + "Hobi saya" + " " + hobby)
+}
+
+var name = "Ziyad.";
+var age = "15";
+var address = "Jln. Tun Abdul Razak, Makassar.";
+var hobby = "badminton.";
 
 var fullSentence = processSentence(name,age,address,hobby);
-console.log(fullSentence); // Menampilkan "Nama saya Dede, umur saya 31 tahun, alamat saya di Jln. Hertasning baru Blok B3 17, dan saya punya hobby yaitu gaming!"
+console.log(fullSentence);
+
+// Menampilkan nama, umur, alamat, dan hobby
